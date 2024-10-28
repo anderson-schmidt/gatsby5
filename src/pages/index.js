@@ -1,17 +1,16 @@
 import * as React from "react"
+import Layout from "../components/layout"
 
-const IndexPage = () => {
+export default function IndexPage ()  {
   return (
-    <main>
-      <h1>
-        Congratulations
-        <br />
-        <span>— you just made a Gatsby site! 🎉🎉🎉</span>
-      </h1>
-    </main>
+    <Layout>
+      <h1>Página 1</h1>
+      <div>
+        <p>Esse é o primeiro parágrafo</p>
+        <p>Esse é o segundo parágrafo</p>
+      </div>
+    </Layout>
   )
 }
-
-export default IndexPage
 
 export const Head = () => <title>Home Page</title>
