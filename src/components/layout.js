@@ -11,8 +11,8 @@ export default function Layout({children}){
                 <h3>Estudos de Jamstack - Gatsby</h3>
                 <nav className="topnav">
                     <Link to="/">Inicio</Link>
-                    <Link to="/pagina2">Dados Estático</Link>
-                    <Link to="/pagina3">Dados React</Link>
+                    <Link to="/pagina1">Formulário Estático</Link>
+                    <Link to="/pagina2">Formulário React</Link>
                 </nav>
             </div>
             <div className="main">
